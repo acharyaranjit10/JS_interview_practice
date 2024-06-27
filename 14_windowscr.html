@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        body {
+            background-color: rgb(94, 130, 172);
+
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .box {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+            height: 310vh;
+            width: auto;
+            background-color: rgb(154, 194, 167);
+            font-size: xx-large;
+            color: antiquewhite;
+            padding: 1rem;
+        }
+
+        #btn {
+            height: 30px;
+            width: 100px;
+            background-color: black;
+            color: white;
+            margin: 3rem 0;
+            border-radius: 1rem;
+            border: 2px solid transparent;
+        }
+
+        #btn:hover {
+            cursor: pointer;
+            border-color: rgb(133, 204, 139);
+            background-color: rgb(61, 60, 60);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <p>Scroll down for the button</p>
+        <p>Scroll down for the button</p>
+        <p>Scroll down for the button</p>
+        <p>Scroll down for the button</p>
+    </div>
+    <div class="box">
+        <p>Scroll down for the button</p>
+        <p>Scroll down for the button</p>
+        <p>Scroll down for the button</p>
+        <p>Scroll down for the button</p>
+    </div>
+    <button id="btn"> goToTop </button>
+
+
+
+    <script src="14_windowScroller.js"></script>
+</body>
+
+</html>
